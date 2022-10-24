@@ -1,0 +1,84 @@
+*{
+	
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+	
+	}
+	
+.social-menu{
+	margin-top: 50px;
+	display: inline-block;
+	position: relative;
+	left: 200px;
+  	
+	
+	}
+	
+.social-menu a  {
+  background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 30px;
+	overflow: hidden;
+	position: relative;
+	line-height: 60px;
+	text-align: center;
+  }
+    
+.social-menu a{  
+   transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+ 	
+}
+
+.social-menu .telegram:hover {
+      background-color: #129fd2;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+
+.social-menu .discord:hover   {
+     background-color: #486fc3;
+      transform: rotate(360deg);
+      border-radius: 50%;	 
+}
+  
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Nunito', sans-serif;
+	color: #384047;
+  }
+  
+  form {
+	max-width: 300px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+  }
+  
+  
+  input[type="radio"] {
+	margin: 0 4px 8px 0;
+  }
+  
+  select {
+	padding: 6px;
+	height: 32px;
+	border-radius: 2px;
+  }
